@@ -27,3 +27,10 @@ Often, the freelancer's clients hire them for projects spanning over multiple mo
    Help them estimate their cost for such projects, given an hourly rate, the number of days the project spans, 
    and a monthly discount rate. The discount is always passed as a number, where 42% becomes 0.42. 
    The result must be rounded up to the nearest whole number.
+
+
+   variables:
+    fullmonths ?
+    remainingDays ?
+    payFormonth= 10*22*89
+    discount =
