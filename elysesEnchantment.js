@@ -21,5 +21,16 @@ elements.splice(position, amount)
     return elements
 }
 
-console.log(cards)
-console.log(addItemToStart(cards, 900))
+ function frontDoorPassword(word) {
+    const upperCase= word[0].toUpperCase()
+    const lowerCase= word.slice(1).toLowerCase();
+    let completeWord= `${upperCase}${lowerCase}`
+    return completeWord
+  }
+
+  function backDoor(word){
+    const capitalizeLetter= `${frontDoorPassword(word)}, please`
+    return capitalizeLetter
+  }
+
+console.log(backDoor("HELLO"))
